@@ -39,7 +39,6 @@ tagHeatmap(tagMatrixList, xlim=c(-2000, 2000), color=c("#D55E00", "#0072B2", "#E
 plotAnnoBar(annotatePeak(files[1], tssRegion=c(-2000, 1000),TxDb=txdb))
 plotAnnoBar(annotatePeak(files[2], tssRegion=c(-2000, 1000),TxDb=txdb))
 plotAnnoBar(annotatePeak(files[3], tssRegion=c(-2000, 1000),TxDb=txdb))
-plotAnnoBar(annotatePeak(files[4], tssRegion=c(-2000, 1000),TxDb=txdb))
 
 # Overlap of peaks and annotated genes
 peakAnnoList <- lapply(files, annotatePeak, TxDb=txdb,
