@@ -1,8 +1,8 @@
+### All input/output data are stored in Zenodo(https://~~~~)
+
 # Call ACRs for each treatment using genomic DNA as control
 
 script: macs2_for_all_replicates.sh
-
-all input/output data are stored in Zenodo(https://~~~~)
 
 | treat  | input(treat)  | input(control) |  output  |
 |---|---|---|---|
@@ -17,8 +17,6 @@ all input/output data are stored in Zenodo(https://~~~~)
 # Call ACRs for each replicate using genomic DNA as control
 
 script: macs2_for_each_replicate.sh
-
-all input/output data are stored in Zenodo(https://~~~~)
 
 | treat  | input(treat)  | input(control) |  output  |
 |---|---|---|---|

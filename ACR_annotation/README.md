@@ -1,8 +1,8 @@
+### All input/output data are stored in Zenodo(https://~~~~)
+
 ## Extract TTS regions from TAIR10 gff file
 
 script: Arabi_TTS_bed.py
-
-all input/output data are stored in Zenodo(https://~~~~)
 
 | input  | output  |
 |---|---|
@@ -11,8 +11,6 @@ all input/output data are stored in Zenodo(https://~~~~)
 ## Visualize profile of ACRs binding TSS/TTS & Overlap of ACRs and annotated genes
 
 script: peak_annotation.R
-
-all input/output data are stored in Zenodo(https://~~~~)
 
 | treat  | input (ACRs file)  | additional_input(bed) |  output  |
 |---|---|---|---|
