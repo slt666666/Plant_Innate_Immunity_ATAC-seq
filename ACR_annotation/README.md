@@ -2,7 +2,7 @@
 
 ## Extract TTS regions from TAIR10 gff file
 
-script: Arabi_TTS_bed.py
+### script: Arabi_TTS_bed.py
 
 | input  | output  |
 |---|---|
@@ -10,7 +10,7 @@ script: Arabi_TTS_bed.py
 
 ## Visualize profile of ACRs binding TSS/TTS & Overlap of ACRs and annotated genes
 
-script: peak_annotation.R
+### script: peak_annotation.R
 
 | treat  | input bed files <br> (.narrowPeak_removeCM.bed)  | additional_input (TTS regions) |  output  |
 |---|---|---|---|
@@ -20,7 +20,7 @@ script: peak_annotation.R
 
 ## Heatmap of profile of ACRs binding TSS/TTS for each replicate
 
-script: heatmap_for_each_replicate.R
+### script: heatmap_for_each_replicate.R
 
 | treat  | input bed files <br> (.narrowPeak_removeCM.bed)  | output |
 |---|---|---|
