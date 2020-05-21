@@ -2,7 +2,7 @@
 
 ## Call ACRs for each treatment using genomic DNA as control
 
-### script: macs2_for_all_replicates.sh
+script: macs2_for_all_replicates.sh
 
 | treat  | input(treat)  | input(control) |  output  |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 
 ## Call ACRs for each replicate using genomic DNA as control
 
-### script: macs2_for_each_replicate.sh
+script: macs2_for_each_replicate.sh
 
 | treat  | input(treat)  | input(control) |  output  |
 |---|---|---|---|
