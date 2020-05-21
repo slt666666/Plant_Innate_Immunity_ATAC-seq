@@ -31,5 +31,5 @@ cut -f1-3 "${out_name}_peaks.narrowPeak" > "${out_name}_peaks.narrowPeak.bed"
 
 # extract chromosome peaks
 sed '/chloroplast/d' "${out_name}_peaks.narrowPeak.bed" > "${out_name}_peaks.narrowPeak.bed.tmp"
-sed '/mitochondria/d' "${out_name}_peaks.narrowPeak.bed.tmp" > "${out_name}_peaks.narrowPeak.bed"
+sed '/mitochondria/d' "${out_name}_peaks.narrowPeak.bed.tmp" > "${out_name}_peaks.narrowPeak_removeCM.bed"
 rm -rf "${out_name}_peaks.narrowPeak.bed.tmp"
