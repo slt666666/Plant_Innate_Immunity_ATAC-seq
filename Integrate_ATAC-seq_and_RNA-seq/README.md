@@ -5,7 +5,7 @@
 script: diff_peaks.sh
 
 | treatA  | treatB | input(treat)  | input(control) |  output  |
-|---|---|---|---|
+|---|---|---|---|---|
 | WT_a4 | WT_untreat | wt_a4_4h_1_PDJJ0025 <br> wt_a4_4h_2_PDJJ0033 | wt_un_1_PDJJ0022 <br> wt_un_2_PDJJ0030 | wt_a4_vs_un |
 | WT_a4 | WT_mock | wt_a4_4h_1_PDJJ0025 <br> wt_a4_4h_2_PDJJ0033 | wt_mk_4h_1_PDJJ0023 <br> wt_mk_4h_2_PDJJ0031 | wt_a4_vs_mk |
 | WT_kv | WT_untreat | wt_kv_4h_1_PDJJ0024 <br> wt_kv_4h_2_PDJJ0032 | wt_un_1_PDJJ0022 <br> wt_un_2_PDJJ0030 | wt_kv_vs_un |
