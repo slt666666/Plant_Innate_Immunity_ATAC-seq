@@ -24,6 +24,6 @@ script: heatmap_for_each_replicate.R
 
 | treat  | input bed files <br> (.narrowPeak_removeCM.bed)  | output |
 |---|---|---|
-| Wild type | wt_a4_4h_1, wt_a4_4h_2 <br> wt_kv_4h_1, wt_kv_4h_2 <br> wt_mk_4h_1,wt_mk_4h_2 <br> wt_un_1,wt_un_2 | TTS.bed | wt_each_reps_original_peak_removeCM.html |
-| SETI wild type | setiwt_e2_1,setiwt_e2_2,setiwt_e2_3 <br> setiwt_mk_1,setiwt_mk_2,setiwt_mk_3 <br> setiwt_un_1,setiwt_un_2,setiwt_un_3 | TTS.bed | setiwt_each_reps_original_peak_removeCM.html |
-| SETI mutant type | setikv_e2_1,setikv_e2_2 <br> setikv_mk_1,setikv_mk_2 <br> setikv_un_1,setikv_un_2 | TTS.bed | setikv_each_reps_original_peak_removeCM.html |
+| Wild type | wt_a4_4h_1, wt_a4_4h_2 <br> wt_kv_4h_1, wt_kv_4h_2 <br> wt_mk_4h_1, wt_mk_4h_2 <br> wt_un_1, wt_un_2 | TTS.bed | wt_each_reps_original_peak_removeCM.html |
+| SETI wild type | setiwt_e2_1, setiwt_e2_2, setiwt_e2_3 <br> setiwt_mk_1, setiwt_mk_2, setiwt_mk_3 <br> setiwt_un_1, setiwt_un_2, setiwt_un_3 | TTS.bed | setiwt_each_reps_original_peak_removeCM.html |
+| SETI mutant type | setikv_e2_1, setikv_e2_2 <br> setikv_mk_1, setikv_mk_2 <br> setikv_un_1, setikv_un_2 | TTS.bed | setikv_each_reps_original_peak_removeCM.html |
