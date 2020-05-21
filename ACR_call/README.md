@@ -21,7 +21,7 @@ all input/output data are stored in Zenodo(https://~~~~)
 | SRMI+IRMI rep1 | wt_a4_4h_1_PDJJ0025 | gdna_tagmen_1_SHXF032G_sorted <br> gdna_tagmen_2_SHXF032H_sorted <br> gdna_tagmen_3_SHXF032I_sorted | wt_a4_4h_1 |
 | SRMI+IRMI rep2 | wt_a4_4h_2_PDJJ0033 | " | wt_a4_4h_2 |
 | SRMI rep1 |  wt_kv_4h_1_PDJJ0024_sorted |  " | wt_kv_4h_1 |
-| SRMI rep1 |  wt_kv_4h_2_PDJJ0032_sorted |  " | wt_kv_4h_2 |
+| SRMI rep2 |  wt_kv_4h_2_PDJJ0032_sorted |  " | wt_kv_4h_2 |
 | IRMI rep1 | setiwt_e2_1_PDJJ0003_sorted | " | setiwt_wt_1 |
 | IRMI rep2 | setiwt_e2_2_PDJJ0012_sorted | " | setiwt_wt_2 |
 | IRMI rep3 | setiwt_e2_3_PDJJ0018_sorted | " | setiwt_wt_3 |
