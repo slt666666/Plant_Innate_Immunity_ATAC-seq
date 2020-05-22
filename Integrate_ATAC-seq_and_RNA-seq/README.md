@@ -28,13 +28,21 @@ script: annotate_target_genes.R
 ## Visualize DEG genes & ACR target genes consensus (Venn diagram & bar plot)
 
 script: DEG_and_ACR_consensus.ipynb
-* input(ACR_peaks): <br>
-wt_a4_vs_un_peaks.narrowPeak, wt_kv_vs_mk_peaks.narrowPeak, setiwt_e2_vs_mk.narrowPeak, setiwt_e2_vs_setikv_e2.narrowPeak
-* input(annotation): <br>
-wt_a4_vs_un_peaks_annotation.txt, wt_kv_vs_mk_peaks_annotation.txt, setiwt_e2_vs_mk_peaks_annotation.txt, setiwt_e2_vs_setikv_e2_peaks_annotation,txt
-* input(DEG): <br>
-Significant DE genes list and statistics.csv ...for WT series<br>
-DE gene testing statistics.csv ...for SETI series
+
+| vs | peak files | annotation files |
+|---|---|---|
+| wt_a4_vs_un | wt_a4_vs_un_peaks_annotation.txt | wt_a4_vs_un_peaks_annotation.txt |
+| wt_kv_vs_un | wt_kv_vs_mk_peaks_annotation.txt | wt_kv_vs_mk_peaks_annotation.txt |
+| setiwt_e2_vs_mk | setiwt_e2_vs_mk_peaks_annotation.txt | setiwt_e2_vs_mk_peaks_annotation.txt |
+| setiwt_e2_vs_setikv_e2 | setiwt_e2_vs_setikv_e2_peaks_annotation.txt | setiwt_e2_vs_setikv_e2_peaks_annotation.txt |
+
+* input(DEG):
+
+| series | filename |
+|---|---|
+| WT series | Significant DE genes list and statistics.csv |
+| SETI series | DE gene testing statistics.csv |
+
 * input(GO analysis results)...from g:Profiler
 
 | vs | filename |
