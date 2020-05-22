@@ -24,3 +24,29 @@ script: annotate_target_genes.R
 | wt_kv_vs_un | wt_kv_vs_mk_peaks_annotation.txt |
 | setiwt_e2_vs_mk | setiwt_e2_vs_mk_peaks_annotation.txt |
 | setiwt_e2_vs_setikv_e2 | setiwt_e2_vs_setikv_e2_peaks_annotation.txt |
+
+## Visualize DEG genes & ACR target genes consensus (Venn diagram & bar plot)
+
+script: DEG_and_ACR_consensus.ipynb
+* input(ACR_peaks):
+wt_a4_vs_un_peaks.narrowPeak, wt_kv_vs_mk_peaks.narrowPeak, setiwt_e2_vs_mk.narrowPeak, setiwt_e2_vs_setikv_e2.narrowPeak
+* input(annotation):
+wt_a4_vs_un_peaks_annotation.txt, wt_kv_vs_mk_peaks_annotation.txt, setiwt_e2_vs_mk_peaks_annotation.txt, setiwt_e2_vs_setikv_e2_peaks_annotation,txt
+* input(DEG):
+Significant DE genes list and statistics.csv ...for WT series<br>
+DE gene testing statistics.csv ...for SETI series
+* input(GO analysis results)...from g:Profiler
+| vs |  filename  |
+|---|---|
+| wt_a4_vs_un | a4_GO.csv |
+| wt_kv_vs_un | kv_GO.csv |
+| common in wt_a4_vs_un & wt_kv_vs_un | wt_a4_kv_common_GO.csv |
+| setiwt_e2_vs_mk | wte2_GO.csv |
+* input(others):
+TAIR10_GFF3_genes.gff
+
+## Visualize  DEG genes & ACR target genes consensus (Upset plot)
+script: Upset_plot.R
+
+* input(consensus gene list):
+Gene_list_for_venn.csv

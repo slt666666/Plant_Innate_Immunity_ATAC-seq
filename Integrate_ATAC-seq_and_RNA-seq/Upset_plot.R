@@ -2,7 +2,7 @@
 library(UpSetR)
 
 # load input table
-input_file <- "/Users/toshiyuk/Desktop/atac/diff_peaks/Gene_list_for_venn.csv"
+input_file <- "Gene_list_for_venn.csv"
 gene_table <- read.table(
                       input_file,
                       sep=",",
