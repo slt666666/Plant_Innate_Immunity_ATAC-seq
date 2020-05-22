@@ -1,7 +1,7 @@
 ## Chromatin accessibility landscapes activated by plant cell-surface and intracellular immune receptors
 
 | folder |  |
-|---|---|
+|:---:|---|
 | Correlation_replicates | Check reproducibility of replicates |
 | ACR_call | Visualize profile of ACRs |
 | ACR_annotation | Visualize profile of ACRs |
