@@ -29,6 +29,8 @@ script: annotate_target_genes.R
 
 script: DEG_and_ACR_consensus.ipynb
 
+* input(peak file, annotation file):
+
 | vs | peak files | annotation files |
 |---|---|---|
 | wt_a4_vs_un | wt_a4_vs_un_peaks_annotation.txt | wt_a4_vs_un_peaks_annotation.txt |
