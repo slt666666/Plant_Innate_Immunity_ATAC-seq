@@ -1,6 +1,6 @@
 ### All input/output data are stored in Zenodo(https://~~~~)
 
-## Call DARs treatment_A vs treatment_B
+## Call DARs treatment_A vs treatment_B using MACS
 
 script: diff_peaks.sh
 
