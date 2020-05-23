@@ -33,10 +33,10 @@ script: DEG_and_ACR_consensus.ipynb
 
 | vs | peak files | annotation files |
 |---|---|---|
-| wt_a4_vs_un | wt_a4_vs_un_peaks_annotation.txt | wt_a4_vs_un_peaks_annotation.txt |
-| wt_kv_vs_un | wt_kv_vs_mk_peaks_annotation.txt | wt_kv_vs_mk_peaks_annotation.txt |
-| setiwt_e2_vs_mk | setiwt_e2_vs_mk_peaks_annotation.txt | setiwt_e2_vs_mk_peaks_annotation.txt |
-| setiwt_e2_vs_setikv_e2 | setiwt_e2_vs_setikv_e2_peaks_annotation.txt | setiwt_e2_vs_setikv_e2_peaks_annotation.txt |
+| wt_a4_vs_un | wt_a4_vs_un_peaks.narrowPeak.bed | wt_a4_vs_un_peaks_annotation.txt |
+| wt_kv_vs_un | wt_kv_vs_un_peaks.narrowPeak.bed | wt_kv_vs_mk_peaks_annotation.txt |
+| setiwt_e2_vs_mk | setiwt_e2_vs_mk_peaks.narrowPeak.bed | setiwt_e2_vs_mk_peaks_annotation.txt |
+| setiwt_e2_vs_setikv_e2 | setiwt_e2_vs_setikv_e2_peaks.narrowPeak.bed | setiwt_e2_vs_setikv_e2_peaks_annotation.txt |
 
 * input(DEG):
 
