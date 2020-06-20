@@ -1,4 +1,4 @@
-### All input/output data are stored in Zenodo(https://~~~~)
+### All input/output data are stored in Zenodo(10.5281/zenodo.3841089)
 
 ## Call DARs treatment_A vs treatment_B using MACS
 

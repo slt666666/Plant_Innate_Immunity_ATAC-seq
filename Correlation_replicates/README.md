@@ -1,4 +1,4 @@
-### All input/output data are stored in Zenodo(https://~~~~)
+### All input/output data are stored in Zenodo(10.5281/zenodo.3841089)
 
 ## Count read number for common peak regions for each rep
 

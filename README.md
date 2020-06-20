@@ -8,4 +8,3 @@
 | ACR_call | Call ACRs for each treatment using MACS program |
 | ACR_annotation | Visualize profile of ACRs |
 | Integrate_ATAC-seq_and_RNA-seq | Find out correspondence between ACRs & DEGs |
-| TOBIAS_motif_binding_analysis | motif binding analysis using TOBIAS program |
